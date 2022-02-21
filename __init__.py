@@ -1,5 +1,5 @@
-from constans import *
-from Base import Svg_Base, Shape_Base, Text_Base, Gradient_Base
+from .constans import *
+from .Base import Svg_Base, Shape_Base, Text_Base, Gradient_Base
 
 class Svg(Svg_Base):
     def __init__(self, width, height, viewBox, x=0, y=0, style={}):

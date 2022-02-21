@@ -1,4 +1,4 @@
-from constans import *
+from .constans import *
 
 
 class Svg_Base():
